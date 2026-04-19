@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('Fira_Sans/FiraSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+   /* Primary colour (red = hsl(0, 100%, 50%)) */
+  --bulma-primary-h: 0deg;
+  --bulma-primary-s: 100%;
+  --bulma-primary-l: 50%;
+
+  /* Link colour */
+  --bulma-link-h: 0deg;
+  --bulma-link-s: 100%;
+  --bulma-link-l: 50%;
+
+  /* Background - this one works as a direct value */
+  --bulma-background: #f5f5f5;
+
+  /* Radius */
+  --bulma-radius: 8px;
+
+  /* Font */
+  --bulma-family-primary: 'Fira Sans', sans-serif;
+}
+
+/* use https://colorpicker.dev/ to convert from hex to hsl otherwise it wont work */ 

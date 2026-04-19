@@ -1,11 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <link rel="stylesheet" href="theme.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Page</title>
+    <title>madebymel</title>
   </head>
   <body>
-    <h1>Hello, GitHub Pages!</h1>
+    <div id="app">
+      <!-- Components slot in here -->
+    <div id="navbar"></div>
+
+    <main class="container">
+      <h1>Welcome</h1>
+      <p>Your page content goes here</p>
+    </main>
+
+    <div id="footer"></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
